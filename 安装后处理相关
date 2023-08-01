@@ -1,0 +1,41 @@
+常用命令
+su root权限
+sudo apt install 安装app
+mkdir 创建文件夹
+rm -rf 删除文件夹
+nginx -t 判定nginx配置有无异常
+nginx -s reload 重启nginx
+
+系统更新
+sudo passwd root 开启ROOT权限
+sudo apt update  查看更新
+sudo apt upgrade 更新
+sudo snap refresh snap-store 更新snap-store
+kill pid 杀死进程
+seahorse 密钥环
+
+安装clash & chrome & vim
+tar -zxvf xxx.tar.gz -C /etc 解压到/etc文件夹
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb 下载chrome
+sudo apt install ./google-chrome-stable_current_amd64.deb 安装chrome
+sudo apt install vim 安装vim i编辑 Esc退出编辑 ：命令行 wq退出vim
+sudo apt install git 安装git
+
+LNMP环境配置
+sudo apt install php-fpm 安装php，不包含apache
+sudo apt install nginx 安装nginx
+sudo apt install mysql-server 安装mysql
+get -O composer-setup.php https://getcomposer.org/installer 下载composer
+udo php composer-setup.php --install-dir=/usr/local/bin --filename=composer 全局安装composer
+
+sudo mysql 进入mysql
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'zhanyiah!@#1989';
+FLUSH PRIVILEGES;
+\q
+
+sudo apt install phpmyadmin 安装phpmyadmin
+sudo ln -s /usr/share/phpmyadmin /var/www/html/phpmyadmin 映射
+
+chmod -R 755 /var/erp
+chmod -R 777 /var/erp/storage
+
