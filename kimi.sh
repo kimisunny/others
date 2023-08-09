@@ -80,5 +80,5 @@ then
 else
     echo "清除屏幕，并重新进入";
     clear;
-    ./test.sh;
+    ./kimi.sh;
 fi
