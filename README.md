@@ -2,8 +2,9 @@
 
 这是一篇为 **GPT/EFI 引导** 的电脑安装 Arch Linux（单系统）的自用中文简明流程。
 
-> 说明：双系统安装教程 https://github.com/JunkFood02/Arch-Linux-Installation-Guide
-> 说明： Arch Linux官方中文安装指南 https://wiki.archlinuxcn.org/wiki/%E5%AE%89%E8%A3%85%E6%8C%87%E5%8D%97
+> 双系统安装教程 https://github.com/JunkFood02/Arch-Linux-Installation-Guide
+
+> Arch Linux官方中文安装指南 https://wiki.archlinuxcn.org/wiki/%E5%AE%89%E8%A3%85%E6%8C%87%E5%8D%97
 
 
 
@@ -604,8 +605,6 @@ pacman -S xorg
 ## 安装 KDE Plasma
 
 
-## 安装 KDE Plasma
-
 精简安装
 
 ```
@@ -787,3 +786,9 @@ sudo vim /etc/hosts
 ```
 sudo systemctl restart nscd
 ```
+
+## 官方wiki及显卡驱动
+
+Arch Linux官方wiki 目录 https://wiki.archlinuxcn.org/wiki/%E7%9B%AE%E5%BD%95
+图形相关 https://wiki.archlinuxcn.org/wiki/Category:%E5%9B%BE%E5%BD%A2
+ATI https://wiki.archlinuxcn.org/wiki/ATI
