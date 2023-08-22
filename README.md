@@ -296,11 +296,15 @@ vim /etc/pacman.conf
 ```
 
 > 镜像initramfs构建时，你可能得到以下警告：
+> 
 > WARNING: Possibly missing firmware for module: wd719x
+>
 > WARNING: Possibly missing firmware for module: aic94xx
+>
 > WARNING: Possibly missing firmware for module: xhci_pci
+>
 > ......
-
+>
 > 说明：可忽略，也可安装相关包解除警告，如  `linux-firmware-qlogic`，详情查看 https://wiki.archlinuxcn.org/wiki/Mkinitcpio
 
 
