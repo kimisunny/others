@@ -47,9 +47,9 @@ Arch Linux官方ISO下载地址 https://archlinux.org/download/
 ## 开始安装 Arch Linux
 
 1. 完成了 BIOS 的设置后，重启计算机，我们应该进入到了 Arch Linux 的界面,如果没有可重启计算机按 Esc 键选择带 UEFI 标识的U盘进入
-2. 选择第一项 [ Arch Linux install mdedium（x86_64，UEFI）]
+2. 选择第一项 `Arch Linux install mdedium(x86_64，UEFI)`
 3. 等待Arch Linux加载启动
-4. 出现[root@archiso]字样，恭喜已进入`Zsh`命令行
+4. 出现`root@archiso`字样，恭喜已进入`Zsh`命令行
 
 
 
