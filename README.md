@@ -699,6 +699,7 @@ GLFW_IM_MODULE=ibus
 Arch Linux支持多种快捷键，详情见 https://wiki.archlinuxcn.org/wiki/%E5%BF%AB%E6%8D%B7%E9%94%AE
 
 `Ctrl` + `F2` 启用图形界面
+
 `Ctrl` + `F4` 启用tty4命令行
 
 ## AUR helper: yay
@@ -796,5 +797,7 @@ sudo systemctl restart nscd
 ## 官方wiki及显卡驱动
 
 Arch Linux官方wiki 目录 https://wiki.archlinuxcn.org/wiki/%E7%9B%AE%E5%BD%95
+
 图形相关 https://wiki.archlinuxcn.org/wiki/Category:%E5%9B%BE%E5%BD%A2
+
 ATI https://wiki.archlinuxcn.org/wiki/ATI
